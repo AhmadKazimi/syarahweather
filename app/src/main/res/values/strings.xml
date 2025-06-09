@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">syarahweather</string>
+
+    <!-- ===============================
+         GENERAL / COMMON STRINGS
+         =============================== -->
+    <string name="general_unknown_location">Unknown location</string>
+    <string name="general_current_location">Current Location</string>
+    <string name="general_loading">Loading...</string>
+    <string name="general_unknown_error">Unknown error occurred</string>
+    <string name="general_separator_comma_space">, </string>
+
+    <!-- ===============================
+         ACTIONS (BUTTONS, MENU ITEMS)
+         =============================== -->
+    <string name="action_back">Back</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_delete_location">Delete location</string>
+    <string name="action_add_location">Add location</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_select_location">Select Location</string>
+    <string name="action_manage_locations">Manage Locations</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_not_now">Not Now</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_enable_location_access">Enable Location Access</string>
+
+    <!-- ===============================
+         LABELS AND TITLES
+         =============================== -->
+    <string name="label_humidity">Humidity</string>
+    <string name="label_wind_speed">Wind Speed</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_visibility">Visibility</string>
+    <string name="label_uv_index">UV Index</string>
+    <string name="label_last_updated">Last Updated</string>
+    <string name="label_weather_details">Weather Details</string>
+    <string name="label_current_location">Current location</string>
+
+    <!-- ===============================
+         LOCATION MANAGEMENT
+         =============================== -->
+    <string name="location_title_manage_locations">Manage Locations</string>
+    <string name="location_title_add_location">Add Location</string>
+    <string name="location_saved_locations_count">Saved Locations (%1$d/5)</string>
+    <string name="location_saved_locations_count_search">Saved locations (%1$d/5)</string>
+    <string name="location_no_saved_locations">No saved locations yet</string>
+    <string name="location_search_instruction">Search for a location to save it for quick access</string>
+    <string name="location_search_instruction_add_more">Add more locations</string>
+    <string name="location_search_instruction_start">Start typing to search for places around the world</string>
+    <string name="location_max_locations_info">You can add up to 5 locations total</string>
+    <string name="location_search_placeholder">Search for a place...</string>
+    <string name="location_search_results_title">Search Results</string>
+    <string name="location_searching">Searching for places...</string>
+    <string name="location_no_results_found">No places found</string>
+    <string name="location_try_different_keywords">Try searching with different keywords</string>
+    <string name="location_get_weather_for_location">Get weather for your location</string>
+    <string name="location_enable_access_instruction">Allow location access to see current weather conditions for your area</string>
+    <string name="location_added">Added</string>
+    <string name="location_removed">Location removed</string>
+
+    <!-- ===============================
+         WEATHER DETAILS
+         =============================== -->
+    <string name="weather_title_details">Weather Details</string>
+    <string name="weather_forecast_5_day">5-Day Forecast</string>
+    <string name="weather_loading_current">Loading current weather...</string>
+    <string name="weather_loading_forecast">Loading forecast...</string>
+    <string name="weather_feels_like">Feels like %1$d°</string>
+    <string name="weather_temperature_celsius">%1$s°C</string>
+    <string name="weather_temperature_degree">%1$d°</string>
+    <string name="weather_humidity_percent">%1$d%%</string>
+    <string name="weather_wind_speed_kmh">%1$d km/h</string>
+    <string name="weather_pressure_hpa">%1$d hPa</string>
+    <string name="weather_visibility_km">%1$d km</string>
+    <string name="weather_forecast_humidity">💧 %1$d%%</string>
+    <string name="weather_forecast_separator">/</string>
+
+    <!-- ===============================
+         PERMISSION RELATED
+         =============================== -->
+    <string name="permission_location_required_title">Location Permission Required</string>
+    <string name="permission_location_disabled_title">Location Permission Disabled</string>
+    <string name="permission_location_access_disabled">Location access is disabled</string>
+    <string name="permission_location_required_message">This app needs location access to provide accurate weather information for your current location. We respect your privacy and only use your location to fetch weather data.</string>
+    <string name="permission_location_disabled_message">Location permission has been permanently disabled. To enable location services, please go to Settings and allow location access for this app.</string>
+    <string name="permission_enable_location_settings">Enable location permission in Settings to get weather for your current location</string>
+    <string name="permission_location_help_accurate_weather">Location access helps provide accurate weather for your area.</string>
+    <string name="permission_location_needed_for_weather">Location permission is needed for current weather information.</string>
+    <string name="permission_location_permanently_denied">Location permission was permanently denied. Please enable it in Settings.</string>
+
+    <!-- ===============================
+         ERROR MESSAGES
+         =============================== -->
+    <string name="error_max_locations_exceeded">Maximum %1$d locations allowed</string>
+    <string name="error_location_already_exists">Location already exists</string>
+    <string name="error_failed_save_location">Failed to save location: %1$s</string>
+    <string name="error_failed_save_location_generic">Failed to save location</string>
+    <string name="error_failed_load_saved_locations">Failed to load saved locations: %1$s</string>
+    <string name="error_failed_load_current_weather">Failed to load current weather</string>
+    <string name="error_failed_load_forecast">Failed to load forecast data</string>
+    <string name="error_location_data_null">Location data is null</string>
+    <string name="error_failed_get_location">Failed to get location: %1$s</string>
+
+    <!-- ===============================
+         SUCCESS MESSAGES
+         =============================== -->
+    <string name="success_location_added">%1$s added successfully</string>
+
+    <!-- ===============================
+         CONTENT DESCRIPTIONS (ACCESSIBILITY)
+         =============================== -->
+    <string name="cd_current_location">Current Location</string>
+    <string name="cd_weather_condition">Weather condition</string>
+    <string name="cd_delete_location">Delete location</string>
+    <string name="cd_add_location">Add location</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_select_location">Select Location</string>
+    <string name="cd_manage_locations">Manage Locations</string>
+    <string name="cd_search_locations">Search locations</string>
+
+    <!-- ===============================
+         DATE/TIME FORMATS
+         =============================== -->
+    <string name="format_date_input">yyyy-MM-dd</string>
+    <string name="format_date_forecast">EEE\nMM/dd</string>
+    <string name="format_time_update">HH:mm</string>
+
+    <!-- ===============================
+         DEVELOPMENT/TESTING CONSTANTS
+         =============================== -->
+    <string name="test_package_name">com.kazimi.syarahweather</string>
+    <string name="current_location_id_prefix">current_</string>
+    <string name="log_tag_location_datasource">LocationDataSource</string>
+    <string name="log_error_saving_location">Error saving location</string>
+
+    <!-- ===============================
+         SAMPLE/PREVIEW DATA
+         =============================== -->
+    <string name="preview_location_amman">Amman</string>
+    <string name="preview_location_amman_state">Amman, Jordan</string>
+    <string name="preview_location_newyork_state">New York, NY, USA</string>
+    <string name="preview_temperature_25">25</string>
+    <string name="preview_temperature_22">22</string>
+    <string name="preview_weather_sunny">Sunny</string>
+    <string name="preview_weather_partly_cloudy">Partly Cloudy</string>
+</resources>
